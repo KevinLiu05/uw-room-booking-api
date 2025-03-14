@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "uw-room-booking-api",
   "version": "1.0.0",
@@ -18,3 +19,25 @@
     "node": ">=14.0.0"
   }
 }
+=======
+{
+  "name": "uw-room-booking-api",
+  "version": "1.0.0",
+  "description": "UW Room Booking API",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "axios": "^1.8.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "vercel": "^32.3.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+>>>>>>> bae8c230bc388cad2c369e1764d9724f7fce87d7
